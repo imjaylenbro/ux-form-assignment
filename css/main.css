@@ -1,2 +1,13 @@
 
-/*  Put your CSS Here */
+
+
+ /* moblie styles */
+
+ /* basic styles */
+
+
+ /* destop styles  min 555*/
+
+ @media{min-width: 550px;} {
+
+ }
