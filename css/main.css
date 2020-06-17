@@ -3,11 +3,36 @@
 
  /* moblie styles */
 
+
+
+
+
  /* basic styles */
+ * {
+     padding: 0px;
+     margin: 0px;
+     box-sizing: border-box;
+ }
+ 
+  
+
+body {
+
+}
+header {
+
+
+/* block style */
+
+
+ /* layout styles */
+
+
 
 
  /* destop styles  min 555*/
 
  @media{min-width: 550px;} {
+ 
 
- }
+}
