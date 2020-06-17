@@ -7,7 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <meta name="description" content="Kenzie Form Practice">
-    <meta name="author" content="Kenzie and Colorlib Templates">
     <meta name="keywords" content="Kenzie Form Practice">
 
     <!-- Title Page-->
@@ -25,7 +24,7 @@
     <div class="form-wrapper">
         <div class="form">
             <img src="images/bg-heading-03.jpg" alt="">
-            <form action=""></form>
+            <form action="">
             <h1>Registrationg Form</h1>
             <div class="field">
                 <label for="name"></label>
@@ -37,6 +36,7 @@
                     required
                 >
             </div>
+    
             <!--date-->
             <div class="field">
                 <label for="date"></label>
@@ -49,14 +49,34 @@
                    
 
             </div>
-           <!-- experiance drop down field-->
+           <!-- experience drop down field-->
+           <select name="experience" id="experience" class="field">
+               <option value="some experience">Some Experience</option>
+               <option value="more experience">More Experience</option>
+               <option value="very exerience">Very Experience</option>
+            </select>
            <!--email field-->
+           <div class="field">
+               <label for="email"></label>
+               <input type="text" placeholder="Email" name="email" id="email" required>               >
+
+           </div>
+
+
            <!--phone number-->
-        
+           <div class="field">
+               <label for="Phone"></label>
+               <input type="tel" 
+               placeholder="Phone (optional)" 
+               name="phoneNumber"
+               id="phoneNumber">
+           </div>
+           <!--submit button-->
+        <button type="button" onclick="">submit</button>
         </div>
 
     </div>
-
+</form>
     <!-- Your html here -->
 </body>
 
