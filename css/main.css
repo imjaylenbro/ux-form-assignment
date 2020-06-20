@@ -1,38 +1,91 @@
 
 
 
- /* moblie styles */
 
 
 
 
 
- /* basic styles */
+
+ /* basic styles------------------*/
  * {
      padding: 0px;
      margin: 0px;
      box-sizing: border-box;
+     overflow: hidden;
+
+ }
+ body {
+     color: blanchedalmond;
+     padding: 0px;
+     margin: 0px;
+     box-sizing: border-box;
+     overflow: hidden;
+      }
+
+
+ .form-wraper {
+     display: flex;
+     flex-flow: column;
+     justify-content: start;
+
  }
  
   
-
-body {
-
-}
-header {
-
-
-/* block style */
-
-
  /* layout styles */
 
+ /* block style -----------------*/
+ .form-wrapper {
+     width: 100%;
+     display: flex;
 
+ }
+.form {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
 
+    /* back shadowing  */
+    -webkit-box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+-moz-box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);   
+}
+.form h1 {
+    font-size: 1em;
 
- /* destop styles  min 555*/
+}
+img {
+    width: 100%;
+}
+input {
+    background-color: transparent;
+    color: blanchedalmond;
+    width: 100%;
+    border-bottom: 1px dotted blanchedalmond;
+    padding: .5em;
+}
+select {
+    background-color: transparent;
+    color: blanchedalmond;
+}
 
- @media{min-width: 550px;} {
- 
+/* moblie styles ----------------------*/
+@media(min-width: 550px){
+    .form-wraper {
+        display: flex;
+        flex-direction: column;
+        align-items:flex-start;
+    }
+    
+}
+
+/* deskstop styles ---------------------*/
+@media (min-width: 767px) {
+    img { width: 100%; } 
+    .form-wraper {
+        display: flex;
+        flex-direction:row ;
+        flex-wrap: wrap;
+    }
 
 }
